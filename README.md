@@ -23,10 +23,10 @@
 
   AGENTE LOG:
   
-    - **`Debe escribir en stdout cada vez que se modifica el stock de un producto`**:
-    Implementandolo en la clase .java, quedaría`**
+    - **Debe escribir en stdout cada vez que se modifica el stock de un producto`**:
+    Implementandolo en la clase .java, quedaría**
 
-          ```
+      ```
     package eci.edu.cvds.parcialCVDS25_1.Agents;
     
     import org.junit.jupiter.api.Test;
@@ -52,14 +52,14 @@
             String actualOutput = outContent.toString();
             assertNotEquals(expected, actualOutput);
         }
-    }
-          ```
+      }
+        ```
           
 AGENTE ADVERTENCIA: 
 
-    - **`Este agente debe escribir en stdout cada vez que el stock de un producto es menor a 5`**
+    - **Este agente debe escribir en stdout cada vez que el stock de un producto es menor a 5**
 
-          ```
+    ```
       /**
      * Esta clase es la encargada de generar las advertencias cuando el stock
      * de un producto se agota <5
@@ -68,7 +68,8 @@ AGENTE ADVERTENCIA:
     public class AgenteAdvertenciaTest {
         
     }
-          ```
+    
+    ```
 **En la clase productoTest**
 
  - **`Es la encargada de realizar las pruebas para diversos casos posibles, como su creación y gestión de lo que se tiene en el stock`**
