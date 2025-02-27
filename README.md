@@ -3,6 +3,10 @@
 **👥 Estudiante CVDS:**
 - Laura Valentina Gutiérrez Rico
 
+
+--Para hacer el primer commit tuve prblemas por el log de usuarios, pero luego lo resolví, por eso se ve reflejado el commit upload desde git
+
+
 ## PROCEDIMIENTO:
 
 **Como primer paso creo un repositorio privado en Git**
