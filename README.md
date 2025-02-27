@@ -75,8 +75,13 @@ AGENTE ADVERTENCIA:
 
    realice varios tipos de Test
 
-
    ![image](https://github.com/user-attachments/assets/6335e421-2667-4dd5-bec2-749050a8149b)
+
+
+**Una vez creados los Test tengo que modificar el archivo pom**
+Ya que se tiene que verificar la versión, que Jacoco esté, en este caso, la agregué en plugin con su porcentaje minimo de cubrimiento de 80%
+
+![image](https://github.com/user-attachments/assets/9bde99b3-3f75-4d0c-83d4-a3be137aebec)
 
 
 
