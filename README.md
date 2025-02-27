@@ -14,16 +14,46 @@
 
 ![image](https://github.com/user-attachments/assets/80aa0e52-d3d8-40a5-b426-ebb7358da783)
 
-**Realizo un commit con loa archivos creados y compilo, para verificar que todo está bien**
+**Realizo un commit con los archivos creados y compilo, para verificar que todo está bien**
 
 
+**En la especificación del parcial piden dos agentes**
 
-
-  Parte I:
-    - ""
-
-        - **`git add`**: Este es un comando que se usa para agregar los cambios en los archivos del proyecto al área de preparación.
-          Esto es necesario antes de confirmar esos cambios con un `git commit`, seguido de un push.
+  AGENTE LOG:
+    - **`Debe escribir en stdout cada vez que se modifica el stock de un producto`**:
+    Implementandolo en la clase .java, quedaría
 
           ```
+    package eci.edu.cvds.parcialCVDS25_1.Agents;
+    
+    import org.junit.jupiter.api.Test;
+    import static org.junit.jupiter.api.Assertions.*;
+    import java.io.ByteArrayOutputStream;
+    import java.io.PrintStream;
+    
+    class AgenteLogTest {
+    
+        @Test
+        void testNotificacion() {
+            //Va a tomar la salida del System.out
+            ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+            System.setOut(new PrintStream(outContent));
+    
+            AgenteLog agenteLog = new AgenteLog();
+            agenteLog.notificacion("Xbox One S", 10);
+    
+            // Va a restaurar lo que sería el System.out
+            System.setOut(System.out);
+            //valida que la salida sea la esperada sin conflictos
+            String expected = "Producto: Xbox One S -> 10 unidades disponibles\n";
+            String actualOutput = outContent.toString();
+            assertNotEquals(expected, actualOutput);
+        }
+    }
+          ```
+          
+AGENTE ADVERTENCIA: 
+
+          ```
+          
           ```
