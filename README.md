@@ -17,6 +17,8 @@
 **Realizo un commit con los archivos creados y compilo, para verificar que todo está bien**
 
 
+
+
 **En la especificación del parcial piden dos agentes**
 
   AGENTE LOG:
@@ -75,6 +77,7 @@ AGENTE ADVERTENCIA:
 
 
    ![image](https://github.com/user-attachments/assets/6335e421-2667-4dd5-bec2-749050a8149b)
+
 
 
 
