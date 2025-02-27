@@ -57,7 +57,6 @@ AGENTE ADVERTENCIA:
 
     - **`Este agente debe escribir en stdout cada vez que el stock de un producto es menor a 5`**
 
-
           ```
       /**
      * Esta clase es la encargada de generar las advertencias cuando el stock
@@ -70,5 +69,12 @@ AGENTE ADVERTENCIA:
           ```
 **En la clase productoTest**
 
- - **`Es la encargada de realizar las pruebas para diversos casos posibles, como su creacion y gestion de lo que se tiene en el stock`**
+ - **`Es la encargada de realizar las pruebas para diversos casos posibles, como su creación y gestión de lo que se tiene en el stock`**
+
+   realice varios tipos de Test
+
+
+   ![image](https://github.com/user-attachments/assets/6335e421-2667-4dd5-bec2-749050a8149b)
+
+
 
