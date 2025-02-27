@@ -18,9 +18,35 @@ class ProductoTest {
     }
 
     @Test
-    void deberiaPermitirStockCero() {
-        Producto producto = new Producto("Mouse", 20.0, 0, "Accesorios");
+    void deberiaSerAceptado() {
+        Producto producto = new Producto("celular", 2000.0, 10, "Electrónica");
 
+        assertEquals("celular", producto.getNombre());
+        assertEquals(10, producto.getStock());
+    }
+
+    @Test
+    void deberiaPermitirStockCero() {
+        Producto producto = new Producto("Mouse", 200.0, 10, "Accesorios");
+        
+        assertEquals("Mouse", producto.getNombre());
         assertEquals(0, producto.getStock());
     }
+    
+    @Test
+    void secreaCorrectamente() {
+        Producto producto = new Producto("audifonos",3000.0, 10, "accesorio");
+
+        assertEquals("audifonos", producto.getNombre());
+        assertEquals(10, producto.getStock());
+    }
+
+    @Test
+    void verificaProductoStock() {
+        Producto producto = new Producto("cargador", 5000.0, 10, "accesorio");
+
+        assertEquals("cargador", producto.getNombre());
+        assertEquals(10, producto.getStock());
+    }
+    
 }

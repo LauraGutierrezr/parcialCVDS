@@ -9,22 +9,20 @@ class AgenteLogTest {
 
     @Test
     void testNotificacion() {
-        // Capturar la salida del System.out
+        //Va a tomar la salida del System.out
         ByteArrayOutputStream outContent = new ByteArrayOutputStream();
         System.setOut(new PrintStream(outContent));
 
-        // Ejecutar el código que genera la salida
         AgenteLog agenteLog = new AgenteLog();
         agenteLog.notificacion("Xbox One S", 10);
 
-
-        // Restaurar el System.out
+        //restaura lo que sería el System.out
         System.setOut(System.out);
-
-        // Validar la salida esperada
+        //valida que la salida dada sea la esperada sin conflictos
         String expected = "Producto: Xbox One S -> 10 unidades disponibles\n";
         String actualOutput = outContent.toString();
         assertNotEquals(expected, actualOutput);
+
     }
 }
 
