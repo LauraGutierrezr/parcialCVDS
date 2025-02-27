@@ -110,3 +110,9 @@ con el comando mvn clean test
 
 
 
+Profe, me faltó adjuntar la imagen de jacoco, disculpa
+
+<img width="537" alt="Captura de Pantalla 2025-02-27 a la(s) 5 00 06 p m" src="https://github.com/user-attachments/assets/5545ae8b-1193-4397-9b68-4f6e9dc7f099" />
+
+
+
