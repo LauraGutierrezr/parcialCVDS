@@ -31,7 +31,7 @@
     Implementandolo en la clase .java, quedaría**
 
       ```
-    package eci.edu.cvds.parcialtercioCVDS25_1.Agents;
+    package eci.edu.cvds.parcialCVDS25_1.Agents;
     
     import org.junit.jupiter.api.Test;
     import static org.junit.jupiter.api.Assertions.*;
@@ -39,7 +39,6 @@
     import java.io.PrintStream;
     
     class AgenteLogTest {
-    
         @Test
         void testNotificacion() {
             //Va a tomar la salida del System.out
